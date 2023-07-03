@@ -24,21 +24,21 @@ const isValidParentheses = (str) => {
             const top = stack.pop();
 
             if (
-                char === "(" && top !== ")" || 
-                char === "[" && top !== "]" ||
-                char === "{" && top !== "}"
+                char === ")" && top !== "(" || 
+                char === "]" && top !== "[" ||
+                char === "}" && top !== "{"
             ) {
                 return false;
             }
         }
     }
-    console.log("stack",stack)
     return isEmpty(stack);
 }
 
 const isEmpty = (arr) => arr.length === 0;
 const string1 = "([{})";
 const string2 = "([]{})[}";
+const string3 = "([]{}){}";
 console.log(isValidParentheses(string1));
 console.log(isValidParentheses(string2));
 
