@@ -112,46 +112,46 @@ class LinkedList {
         console.log(list)
     }
 }
+module.exports = LinkedList;
+// const linkedList = new LinkedList();
+// console.log("LinkedList is empty?", linkedList.isEmpty());
+// console.log("LinkedList size", linkedList.getSize());
 
-const linkedList = new LinkedList();
-console.log("LinkedList is empty?", linkedList.isEmpty());
-console.log("LinkedList size", linkedList.getSize());
+// linkedList.prepend(10);
+// linkedList.prepend(20);
+// linkedList.prepend(30);
 
-linkedList.prepend(10);
-linkedList.prepend(20);
-linkedList.prepend(30);
+// linkedList.append(130);
+// linkedList.append(3220);
 
-linkedList.append(130);
-linkedList.append(3220);
+// linkedList.print();
 
-linkedList.print();
+// console.log("reverse");
+// linkedList.reverse()
 
-console.log("reverse");
-linkedList.reverse()
+// linkedList.print();
 
-linkedList.print();
+// linkedList.removeFromFront();
+// linkedList.print();
 
-linkedList.removeFromFront();
-linkedList.print();
+// console.log(linkedList.removeFromFront());
+// console.log(linkedList.removeFromFront());
+// console.log(linkedList.removeFromFront());
+// console.log(linkedList.removeFromFront());
+// console.log(linkedList.removeFromFront());
+// linkedList.print();
 
-console.log(linkedList.removeFromFront());
-console.log(linkedList.removeFromFront());
-console.log(linkedList.removeFromFront());
-console.log(linkedList.removeFromFront());
-console.log(linkedList.removeFromFront());
-linkedList.print();
+// linkedList.prepend(30);
 
-linkedList.prepend(30);
+// linkedList.append(130);
+// linkedList.append(3220);
+// linkedList.print(); 
+// console.log("removeFromEnd", linkedList.removeFromEnd());
+// console.log("removeFromEnd", linkedList.removeFromEnd());
+// console.log("removeFromEnd", linkedList.removeFromEnd());
+// linkedList.print();
 
-linkedList.append(130);
-linkedList.append(3220);
-linkedList.print(); 
-console.log("removeFromEnd", linkedList.removeFromEnd());
-console.log("removeFromEnd", linkedList.removeFromEnd());
-console.log("removeFromEnd", linkedList.removeFromEnd());
-linkedList.print();
-
-linkedList.append(3220);
-console.log(linkedList.head)
-console.log(linkedList.tail)
-linkedList.print();
+// linkedList.append(3220);
+// console.log(linkedList.head)
+// console.log(linkedList.tail)
+// linkedList.print();
